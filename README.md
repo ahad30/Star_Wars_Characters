@@ -1,4 +1,4 @@
-Here's the complete documentation package for your Star Wars Character Explorer application:
+
 
 # 1. Technical Documentation
 
