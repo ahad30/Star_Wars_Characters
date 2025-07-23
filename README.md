@@ -59,11 +59,6 @@ Installation Steps:
    ```
 
 3. Environment Setup:
-   Create `.env` file in backend:
-   ```env
-   PORT=5000
-   ```
-
    Create `.env` file in frontend:
    ```env
    VITE_BACKEND_URL=http://localhost:5000/api
