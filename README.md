@@ -21,12 +21,6 @@ Components:
    - /characters/:id: Proxy endpoint for character details
    - /planets/:id: Proxy endpoint for planet information
 
-Data Flow:
-1. User interacts with React UI
-2. Requests are sent to Node.js middleware
-3. Data is transformed and returned to React
-4. React updates the UI
-
 API Endpoints:
 - GET /characters?page=1&search=luke
 - GET /characters/1
