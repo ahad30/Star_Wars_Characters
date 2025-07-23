@@ -130,9 +130,7 @@ Architecture Decisions:
    - Implemented loading states for better UX
 
 4. UI Design Choices:
-   - Star Wars themed color scheme (yellow/black)
    - Card-based layout for character listing
-   - Responsive design for all device sizes
    - Skeleton loading states for perceived performance
 
 5. Technical Implementation:
