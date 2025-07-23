@@ -90,7 +90,7 @@ const Home = () => {
         <input
           type="text"
           placeholder="Search characters by name..."
-          value={searchTerm}
+          value={searchTerm.toLocaleLowerCase()}
           onChange={handleSearchChange}
           className="flex-grow p-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
         />
