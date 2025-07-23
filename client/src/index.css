@@ -1,0 +1,23 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .p-paginator .p-paginator-page.p-highlight {
+          background-color: #eab308 !important;
+          color: #1f2937 !important;
+          font-weight: bold;
+          border-radius: 0.375rem;
+        }
+        .p-paginator .p-paginator-page.p-highlight:hover {
+          background-color: #f59e0b !important;
+          color: #1f2937 !important;
+        }
+        .p-paginator .p-disabled {
+          opacity: 0.5;
+          cursor: not-allowed !important;
+        }
+
